@@ -7,6 +7,7 @@ Available options:
 -s --source       path to the file being compiled
 -o --output       path to directory where result files are going to be saved
 -i --index        wether you want to save an index.html in the output directory
+-x --expanded     doesn't minify js and css code
 
 Example:
   gaston build -s ./index.js -o builds/ -i
@@ -19,7 +20,7 @@ Example:
 Notes:
 - code will be compiled with the options present in the gaston section of the package.json
 - paths can be absolute or relative to where you're running the command from
-- output is optional 
+- output is optional
     argument must be a directory and must exist
     you can run gaston bundle without it just to check if there's no compile errors
     does not generate any files as a result if not specified
