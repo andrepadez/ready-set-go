@@ -9,7 +9,10 @@ var initialConfig = {
   'base-path': homedir,
   'source-maps': true,
   'index-path': false,
-  'css-compiler': 'less'
+  'css-compiler': 'less',
+  'babel': {
+    'presets': ['react']
+  }
 }
 
 fs.existsAsync(configPath)
