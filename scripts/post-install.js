@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var path = require('path')
-var fs = require('vigour-fs-promised')
+var fs = require('promfs')
 var homedir = process.env.USERPROFILE || process.env.HOME
 var configPath = path.join(homedir, '.gaston', 'config.json')
 var initialConfig = {

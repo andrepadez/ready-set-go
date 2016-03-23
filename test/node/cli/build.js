@@ -1,5 +1,5 @@
 var os = require('os')
-var fs = require('vigour-fs-promised')
+var fs = require('promfs')
 var path = require('path')
 var exec = require('child_process').exec
 var tmpdir = path.join(os.tmpdir(), 'gaston-tests')
