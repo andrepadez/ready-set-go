@@ -48,7 +48,6 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.2",
-    "mocha-phantomjs": "^3.6.0",
     "multi-glob": "^1.0.1",
     "npmlog": "^1.2.1",
     "openurl": "^1.1.0",
