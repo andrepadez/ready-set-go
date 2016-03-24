@@ -2,7 +2,7 @@
 var path = require('path')
 var log = require('npmlog')
 var version = require(path.join(__dirname, '..', 'package.json')).version
-log.info('gaston', 'version', version)
+log.info('ready-set-go', 'version', version)
 require('../lib/cli')
 
 var updateNotifier = require('update-notifier')
