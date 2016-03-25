@@ -51,7 +51,7 @@
     "multi-glob": "^1.0.1",
     "npmlog": "^1.2.1",
     "openurl": "^1.1.0",
-    "promfs": "^1.0.0",
+    "promfs": "^1.1.0",
     "rimraf": "^2.4.4",
     "shelljs": "^0.5.3",
     "sinon": "^1.16.1",

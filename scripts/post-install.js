@@ -18,6 +18,7 @@ var initialConfig = {
 fs.existsAsync(configPath)
   .then(function (exists) {
     if (!exists) {
-      fs.writeJSONAsync(configPath, initialConfig, { space: 2, mkdirp: true })
+      fs.mkdirp(path.dirname(configPath))
+        .then(fs.writeFileAsync(configPath, JSON.stringify(initialConfig, null, 2)))
     }
   })
